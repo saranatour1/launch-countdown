@@ -2,7 +2,7 @@
 import { ref, onMounted } from 'vue'
 import TimeCard from './time-card.vue'
 
-const timeUntil = new Date('2024-01-01 00:00:00')
+const timeUntil = new Date('2025-01-01 00:00:00')
 const timeObject = ref(calculateCountdown())
 
 function calculateCountdown() {
